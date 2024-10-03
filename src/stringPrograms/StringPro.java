@@ -103,8 +103,16 @@ public class StringPro {
         }**/
 		
 		
+		/**String date= "2080-02-29";
 		
-		
+		String[] s = date.split("-");
+		int year = Integer.parseInt(s[0]);
+		int month = Integer.parseInt(s[1]);
+		int day = Integer.parseInt(s[2]);
+		String yearBinary = Integer.toBinaryString(year);
+		String monthBinary = Integer.toBinaryString(month);
+		String dayBinary = Integer.toBinaryString(day);
+		yearBinary+"-"+monthBinary+"-"+dayBinary;**/
 		
 		
 		
