@@ -4,12 +4,14 @@ public class StringPro {
 
 	public static void main(String[] args) {
 		
+		//1
 		/*
 		 * String value ="welcome to my program"; int count =0; for(int
 		 * i=0;i<value.length();i++) { if(value.charAt(i) !=' ') { count++; } }
 		 * System.out.println(count);
 		 */
 		
+		//2
 		/*
 		 * String value ="welcome to my program"; int vovCount =0; int consCount =0;
 		 * for(int i=0;i<value.length();i++) {
@@ -23,6 +25,7 @@ public class StringPro {
 		 * System.out.println("consonants count in a string -----> "+consCount);
 		 */
 		
+		//3
 		/*
 		 * String str1 ="brag"; String str2 ="garb";
 		 * 
@@ -36,6 +39,7 @@ public class StringPro {
 		 * System.out.println("this is not anagram"); }
 		 */
 		
+		//4
 		/*
 		 * String value ="aaaaabbbbccccdddd";
 		 * 
@@ -47,6 +51,7 @@ public class StringPro {
 		 * }
 		 */
 		
+		//5
 		//Reverse string without reverse function()
 		
 		/**String value ="abcdefghijk";
@@ -64,6 +69,7 @@ public class StringPro {
 		String reverse = strBuilder.reverse().toString();
 		System.out.println(reverse);**/
 		
+		//7
 		/**String s = "the sky is blue";
 		String[] m = s.trim().split("\\s+");
 		StringBuilder strBuilder = new StringBuilder();
@@ -75,6 +81,7 @@ public class StringPro {
 		}
 		System.out.println(strBuilder.toString());**/
 		
+		//8
 		/**String  s = "Hello hhWorld";
 		int count=0;
 		String m = s.trim();
@@ -90,7 +97,7 @@ public class StringPro {
 		}
 		System.out.println(count);**/
 		
-		
+		//9
 		//Input: s = ["h","e","l","l","o"]
 		//Output: ["o","l","l","e","h"]
 		/**char[] s= {'h','e','l','l','o'};
@@ -103,6 +110,7 @@ public class StringPro {
         }**/
 		
 		
+		//10
 		/**String date= "2080-02-29";
 		
 		String[] s = date.split("-");
