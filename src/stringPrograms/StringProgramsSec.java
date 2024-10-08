@@ -1,5 +1,8 @@
 package stringPrograms;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class StringProgramsSec {
 
 	public static void main(String[] args) {
@@ -68,9 +71,25 @@ public class StringProgramsSec {
 		}
 		System.out.println(strBuild.toString());**/
 		
+		//5
+		//Occurrences After Bigram
+		//Input: text = "alice is a good girl she is a good student", first = "a", second = "good"
+		//Output: ["girl","student"]
 		
-		
-		
+		/**String text = "alice is a good girl she is a good student", first = "a", second = "good";
+		String[] s = text.trim().split(" ");
+		List<String> list = new ArrayList<>();
+		String[] arr = new String[list.size()];
+		for(int i=0;i<s.length;i++) {
+			if(s[i].equals(first) && s[i+1].equals(second)) {
+				
+				list.add(s[i+2]);
+			}
+		}
+		for(int i=0;i<arr.length;i++) {
+			arr[i] = list.get(i);
+		}
+		System.out.println(list);**/
 		
 		
 		
