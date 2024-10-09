@@ -92,6 +92,64 @@ public class StringProgramsSec {
 		System.out.println(list);**/
 		
 		
+		//Given a valid (IPv4) IP address, return a defanged version of that IP address.
+		//A defanged IP address replaces every period "." with "[.]".
+		//Input: address = "1.1.1.1"
+		//Output: "1[.]1[.]1[.]1"
+		
+		/**String address = "1.1.1.1";
+		StringBuilder str = new StringBuilder();
+		char[] charArray = address.toCharArray();
+		for(int i=0;i<charArray.length;i++) {
+			
+			if(charArray[i] =='.') {
+				str.append("[.]");
+			}else {
+				str.append(charArray[i]);
+			}
+		}
+		System.out.println(str.toString());
+		
+		address.replace(".","[.]");**/
+		
+		
+		//Input: n = 987
+		//Output: "987"
+		long s = 1234;
+		StringBuilder str = new StringBuilder();
+		str.append(s);
+		StringBuilder str1 = new StringBuilder();
+		if(str.length()<=3) {
+			//return s;
+		}
+		
+		if (str.length() > 3) {
+			for (int i = 0; i < str.length(); i++) {
+				str1.append(str.charAt(i));
+				if (i == 0) {
+					str1.append(".");
+				}
+			}
+		}
+		str1.toString();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
