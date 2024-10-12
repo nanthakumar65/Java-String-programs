@@ -115,7 +115,7 @@ public class StringProgramsSec {
 		
 		//Input: n = 987
 		//Output: "987"
-		long s = 1234;
+		/**long s = 1234;
 		StringBuilder str = new StringBuilder();
 		str.append(s);
 		StringBuilder str1 = new StringBuilder();
@@ -131,7 +131,7 @@ public class StringProgramsSec {
 				}
 			}
 		}
-		str1.toString();
+		str1.toString();**/
 		
 		
 		
