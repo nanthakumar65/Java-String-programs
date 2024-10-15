@@ -1,7 +1,9 @@
 package stringPrograms;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 public class StringProgramsSec {
 
@@ -91,7 +93,7 @@ public class StringProgramsSec {
 		}
 		System.out.println(list);**/
 		
-		
+		//6
 		//Given a valid (IPv4) IP address, return a defanged version of that IP address.
 		//A defanged IP address replaces every period "." with "[.]".
 		//Input: address = "1.1.1.1"
@@ -112,7 +114,7 @@ public class StringProgramsSec {
 		
 		address.replace(".","[.]");**/
 		
-		
+		//7
 		//Input: n = 987
 		//Output: "987"
 		/**long s = 1234;
@@ -133,16 +135,22 @@ public class StringProgramsSec {
 		}
 		str1.toString();**/
 		
+		//Isomorphic String
+		/**String s = "egg", t = "add";
+		Map<Character,Character> map1 = new HashMap<>();
+		Map<Character,Character> map2 = new HashMap<>();
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		for(int i=0;i<s.length();i++) {
+			
+			char a = s.charAt(i);
+			char b = t.charAt(i);
+			if(map1.containsKey(a) && map1.get(a)!=b || map2.containsKey(b) && map2.get(b)!=a ) {
+				return false;
+			}else {
+			map1.put(a, b);
+			map2.put(b, a);
+			}
+		}**/
 		
 		
 		
